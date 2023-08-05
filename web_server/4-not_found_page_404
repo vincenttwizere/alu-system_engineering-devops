@@ -1,4 +1,5 @@
-onfigures nginx server to respond to status code '404',
+#!/usr/bin/env bash
+# Configures nginx server to respond to status code '404',
 # returns a custom Error 404 page containing "Ceci n'est pas une page".
 
 apt-get update
